@@ -46,7 +46,7 @@ pe 'cat helm-oci/blobs/sha256/b745d1324bc4b1b774bb11445e98cfb8cdd5b75288c1efc1f2
 
 pe 'echo toto > llm.txt'
 
-p 'oras push --plain-http localhost:5000/hello-artifact:v1 --artifact-type application/vnd.touraine.tech.config llm.txt:text/plain'
+p 'oras push --plain-http localhost:5000/hello-artifact:v1 --artifact-type application/vnd.aix.marseille.config llm.txt:text/plain'
 cat oras_push.txt
 
 #p 'skopeo inspect docker://localhost:5000/hello-artifact:v1 --tls-verify=false --raw | jq'

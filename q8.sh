@@ -56,7 +56,7 @@ pe "crane manifest $(cosign triangulate 79352h8v.c1.de1.container-registry.ovh.n
 #failed to unpack image on snapshotter overlayfs: mismatched image rootfs and manifest layers
 
 p "Tips: On peut meme ajouter une annotation/information a notre signature"
-pe "cosign sign -y -a conf=tnt --key cosign.key $IMG_DIGEST"
+pe "cosign sign -y -a meetup=cloud-native-aix-marseille --key cosign.key $IMG_DIGEST"
 
 # Verify the image is signed with cosign
 pe "cosign verify $IMG_DIGEST --key cosign.pub -o text | jq"
