@@ -1,0 +1,9 @@
+Trying to pull registry.access.redhat.com/ubi9/ubi-micro@sha256:8e33df2832f039b4b1adc53efd783f9404449994b46ae321ee4a0bf4499d5c42...
+Getting image source signatures
+Checking if image destination supports signatures
+Copying blob 82e56b4fb992 skipped: already exists  
+Copying config 0a76a9bf80 done   | 
+Writing manifest to image destination
+Storing signatures
+0a76a9bf80abadb332376f659186555601fe7d9d26979cf01d6441a8133e1af1
+

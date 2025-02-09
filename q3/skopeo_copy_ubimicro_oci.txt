@@ -1,0 +1,4 @@
+Copying blob 82e56b4fb992 done   | 
+Copying config 0a76a9bf80 done   | 
+Writing manifest to image destination
+

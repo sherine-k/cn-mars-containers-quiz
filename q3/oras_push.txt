@@ -1,0 +1,4 @@
+Uploading 819f04e5706f llm.txt
+Uploaded  819f04e5706f llm.txt
+Pushed [registry] localhost:5000/hello-artifact:v1
+Digest: sha256:8fb92caf454a13fd908fbd65230d07e6e4b22726a8580c8129d45a577d919de4

@@ -1,0 +1,33 @@
+Getting image list signatures
+Copying 4 images generated from 4 images in list
+Copying image sha256:69372661891a4d32e9663a50d7d7eafddf4e91d6915c319905ce5d92e3dfbe31 (1/4)
+Getting image source signatures
+Checking if image destination supports signatures
+Copying blob 82e56b4fb992 done   | 
+Copying config 0a76a9bf80 done   | 
+Writing manifest to image destination
+Storing signatures
+Copying image sha256:76432d6aa946f6f68806b33e7f7d5b115ee1bfe42e5a53e7426f252c6c204a3a (2/4)
+Getting image source signatures
+Checking if image destination supports signatures
+Copying blob 78cd839466e7 done   | 
+Copying config 7f71029345 done   | 
+Writing manifest to image destination
+Storing signatures
+Copying image sha256:66a672ce1eb7a6319f7ad0dd0162a4d4d9ae1817687bada23098917dc0c8950a (3/4)
+Getting image source signatures
+Checking if image destination supports signatures
+Copying blob 14f8ef75efd3 done   | 
+Copying config 9c2737c794 done   | 
+Writing manifest to image destination
+Storing signatures
+Copying image sha256:bb06a5c302001b2a8c803a64f5a3b2132875b8c62b6132b47f88ba80fee7feb9 (4/4)
+Getting image source signatures
+Checking if image destination supports signatures
+Copying blob e70f93721f24 done   | 
+Copying config d92382628d done   | 
+Writing manifest to image destination
+Storing signatures
+Writing manifest list to image destination
+Storing list signatures
+

@@ -1,0 +1,58 @@
+version: "3"
+
+tasks:
+    build:
+        desc: Build the app
+        cmds:
+        - GOFLAGS=-mod=mod go build -o bin/gophers-api internal/main.go 
+
+    run: 
+        desc: Run the app
+        cmds:
+        - GOFLAGS=-mod=mod go run internal/main.go
+
+    swagger.gen:
+        desc: Generate Go code
+        cmds:
+        - GOFLAGS=-mod=mod go generate github.com/scraly/gophers-api/internal github.com/scraly/gophers-api/pkg/swagger
+
+    swagger.validate:
+        desc: Validate swagger
+        cmds:
+        - swagger validate pkg/swagger/swagger.yml
+
+    swagger.doc:
+        desc: Doc for swagger
+        cmds:
+        - docker run -i yousan/swagger-yaml-to-html < pkg/swagger/swagger.yml > doc/index.html
+
+    swagger.serve:
+        desc: Serve swagger UI
+        cmds:
+        - cmd: |
+            swagger serve -F swagger ./pkg/swagger/swagger.yml --no-open
+
+    docker.build:
+        desc: Build Docker image
+        cmds:
+        - DOCKER_BUILDKIT=1 docker build -t gophers-api .
+
+    docker.tag:
+        desc: Tag docker image
+        cmds:
+        - docker tag scraly/gophers-api:latest
+
+    docker.push:
+        desc: Push docker image in Docker Hub
+        cmds:
+        - docker push scraly/gophers-api:latest
+
+    docker.buildlinuxamd64:
+        desc: Build for linux/amd64 (GitPod) and push to Docker Hub 
+        cmds:
+        - docker buildx build --platform linux/amd64 -t scraly/gophers-api:linux-amd64 . --push
+
+    release:
+        desc: run GoReleaser 
+        cmds:
+        - goreleaser release --snapshot --skip-publish --rm-dist
