@@ -1,6 +1,6 @@
 ╭─╼skhoury@sherinefedora ~/.../q9/sample_go 
 ╰─ (main)-$ ko build . 
-2024/12/23 12:06:27 Using base cgr.dev/chainguard/static:latest@sha256:f5fe67ab41c65f55766d824a2d857a7f56c9058b8e077c43d4d809c467f28df8 for github.com/sherine-k/tnt-containers-quiz/q9/sample_go
+2024/12/23 12:06:27 Using base cgr.dev/chainguard/static:latest@sha256:f5fe67ab41c65f55766d824a2d857a7f56c9058b8e077c43d4d809c467f28df8 for github.com/sherine-k/cn-mars-containers-quiz/q9/sample_go
 2024/12/23 12:06:27 git doesn't contain any tags. Tag info will not be available
 git is in a dirty state
 Please check in your pipeline what can be changing the following files:
@@ -11,7 +11,7 @@ Please check in your pipeline what can be changing the following files:
 ?? q9.sh
 ?? q9/
 
-2024/12/23 12:06:27 Building github.com/sherine-k/tnt-containers-quiz/q9/sample_go for linux/amd64
+2024/12/23 12:06:27 Building github.com/sherine-k/cn-mars-containers-quiz/q9/sample_go for linux/amd64
 2024/12/23 12:06:31 Publishing 79352h8v.c1.de1.container-registry.ovh.net/public/sample_go-a8c977420365ada034d95e4cf9b1ffda:latest
 2024/12/23 12:06:34 pushed blob: sha256:df9655f455e64bfca70acf47da8b2d7305a042dd7245c6ea0107cf465f0a5ceb
 2024/12/23 12:06:34 pushed blob: sha256:9d331c4342daeee7d5946ae0f829e05321513097ca6b91193c57038b0e7057fe
@@ -135,17 +135,17 @@ jq: 1 compile error
       ]
     },
     {
-      "SPDXID": "SPDXRef-Package-github.com.sherine-k.tnt-containers-quiz.q9.sample_go-(devel)",
-      "name": "github.com/sherine-k/tnt-containers-quiz/q9/sample_go",
+      "SPDXID": "SPDXRef-Package-github.com.sherine-k.cn-mars-containers-quiz.q9.sample_go-(devel)",
+      "name": "github.com/sherine-k/cn-mars-containers-quiz/q9/sample_go",
       "filesAnalyzed": false,
       "licenseDeclared": "NOASSERTION",
       "licenseConcluded": "NOASSERTION",
-      "downloadLocation": "https://github.com/sherine-k/tnt-containers-quiz/q9/sample_go",
+      "downloadLocation": "https://github.com/sherine-k/cn-mars-containers-quiz/q9/sample_go",
       "copyrightText": "NOASSERTION",
       "externalRefs": [
         {
           "referenceCategory": "PACKAGE-MANAGER",
-          "referenceLocator": "pkg:golang/github.com/sherine-k/tnt-containers-quiz/q9/sample_go@(devel)?type=module",
+          "referenceLocator": "pkg:golang/github.com/sherine-k/cn-mars-containers-quiz/q9/sample_go@(devel)?type=module",
           "referenceType": "purl"
         }
       ]
@@ -326,40 +326,40 @@ jq: 1 compile error
     {
       "spdxElementId": "SPDXRef-Package-sha256-f4c006c7a5066312dc58f99e0ac3cfbe807e4d9b10395ac947b302f198905ca4",
       "relationshipType": "CONTAINS",
-      "relatedSpdxElement": "SPDXRef-Package-github.com.sherine-k.tnt-containers-quiz.q9.sample_go-(devel)"
+      "relatedSpdxElement": "SPDXRef-Package-github.com.sherine-k.cn-mars-containers-quiz.q9.sample_go-(devel)"
     },
     {
-      "spdxElementId": "SPDXRef-Package-github.com.sherine-k.tnt-containers-quiz.q9.sample_go-(devel)",
+      "spdxElementId": "SPDXRef-Package-github.com.sherine-k.cn-mars-containers-quiz.q9.sample_go-(devel)",
       "relationshipType": "DEPENDS_ON",
       "relatedSpdxElement": "SPDXRef-Package-github.com.VividCortex.ewma-v1.2.0"
     },
     {
-      "spdxElementId": "SPDXRef-Package-github.com.sherine-k.tnt-containers-quiz.q9.sample_go-(devel)",
+      "spdxElementId": "SPDXRef-Package-github.com.sherine-k.cn-mars-containers-quiz.q9.sample_go-(devel)",
       "relationshipType": "DEPENDS_ON",
       "relatedSpdxElement": "SPDXRef-Package-github.com.acarl005.stripansi-v0.0.0-20180116102854-5a71ef0e047d"
     },
     {
-      "spdxElementId": "SPDXRef-Package-github.com.sherine-k.tnt-containers-quiz.q9.sample_go-(devel)",
+      "spdxElementId": "SPDXRef-Package-github.com.sherine-k.cn-mars-containers-quiz.q9.sample_go-(devel)",
       "relationshipType": "DEPENDS_ON",
       "relatedSpdxElement": "SPDXRef-Package-github.com.mattn.go-runewidth-v0.0.16"
     },
     {
-      "spdxElementId": "SPDXRef-Package-github.com.sherine-k.tnt-containers-quiz.q9.sample_go-(devel)",
+      "spdxElementId": "SPDXRef-Package-github.com.sherine-k.cn-mars-containers-quiz.q9.sample_go-(devel)",
       "relationshipType": "DEPENDS_ON",
       "relatedSpdxElement": "SPDXRef-Package-github.com.rivo.uniseg-v0.4.7"
     },
     {
-      "spdxElementId": "SPDXRef-Package-github.com.sherine-k.tnt-containers-quiz.q9.sample_go-(devel)",
+      "spdxElementId": "SPDXRef-Package-github.com.sherine-k.cn-mars-containers-quiz.q9.sample_go-(devel)",
       "relationshipType": "DEPENDS_ON",
       "relatedSpdxElement": "SPDXRef-Package-github.com.vbauerster.mpb.v8-v8.8.3"
     },
     {
-      "spdxElementId": "SPDXRef-Package-github.com.sherine-k.tnt-containers-quiz.q9.sample_go-(devel)",
+      "spdxElementId": "SPDXRef-Package-github.com.sherine-k.cn-mars-containers-quiz.q9.sample_go-(devel)",
       "relationshipType": "DEPENDS_ON",
       "relatedSpdxElement": "SPDXRef-Package-golang.org.x.sync-v0.10.0"
     },
     {
-      "spdxElementId": "SPDXRef-Package-github.com.sherine-k.tnt-containers-quiz.q9.sample_go-(devel)",
+      "spdxElementId": "SPDXRef-Package-github.com.sherine-k.cn-mars-containers-quiz.q9.sample_go-(devel)",
       "relationshipType": "DEPENDS_ON",
       "relatedSpdxElement": "SPDXRef-Package-golang.org.x.sys-v0.24.0"
     }
@@ -389,7 +389,7 @@ rs.image.source":"https://github.com/chainguard-images/images/tree/main/images/s
 ╭─╼skhoury@sherinefedora ~/Downloads 
 ╰─ -$ sudo systemctl start docker
 ╭─╼skhoury@sherinefedora ~/Downloads 
-╰─ -$ pack build buildpack_test_image --path ~/go/src/github.com/sherine-k/tnt-containers-quiz/q9/sample_go/ --builder  gcr.io/buildpacks/builder:google-22 
+╰─ -$ pack build buildpack_test_image --path ~/go/src/github.com/sherine-k/cn-mars-containers-quiz/q9/sample_go/ --builder  gcr.io/buildpacks/builder:google-22 
 google-22: Pulling from buildpacks/builder
 7478e0ac0f23: Pulling fs layer 
 5ce17dcc9ac8: Pulling fs layer 

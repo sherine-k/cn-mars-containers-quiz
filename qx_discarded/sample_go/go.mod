@@ -1,4 +1,4 @@
-module github.com/sherine-k/tnt-containers-quiz/q9/sample_go
+module github.com/sherine-k/cn-mars-containers-quiz/q9/sample_go
 
 go 1.23.4
 

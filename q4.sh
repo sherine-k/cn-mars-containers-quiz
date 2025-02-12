@@ -15,7 +15,7 @@ clear
 #p "Q4. Que se passe-t'il quand je push une image dans un registry ?"
 cd gophers-api
 
-p 'docker login -u tnt 79352h8v.c1.de1.container-registry.ovh.net'
+p 'docker login -u cn-mars 79352h8v.c1.de1.container-registry.ovh.net'
 docker login -u sunnytech -p SunnyTech2024 79352h8v.c1.de1.container-registry.ovh.net
 pe 'docker build -t 79352h8v.c1.de1.container-registry.ovh.net/public/gophers-api:latest .'
 pe 'docker image ls 79352h8v.c1.de1.container-registry.ovh.net/public/gophers-api:latest'

@@ -1,4 +1,4 @@
-# tnt-containers-quiz
+# cn-aix-marseille-containers-quiz
 
 ## Pre-requisites
 
